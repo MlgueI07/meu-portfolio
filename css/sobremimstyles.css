@@ -16,6 +16,7 @@ h2 {
     height: 60px;
 }
 
+
 #navbar h2, #navbar ul, #navbar-list li,#navbar nav {
     display: inline-block;
 }
@@ -54,6 +55,13 @@ h2 {
     border-bottom: 1px solid #fff;
 }
 /* banner */
+#banner {
+    background-color: #E73A5C;
+    color: #fff;
+    padding: 0 15px;
+    height: 60px;
+}
+
 #main-banner {
     height: 70vh;
     background-image: url('../img/bg-projeto.jpg');
@@ -61,15 +69,17 @@ h2 {
     padding-top: 15vh;
 }
 
+
 #banner-info {
-    width: 40%;
+    width: 35%;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
     color: #fff;
     padding: 50px;
-    
-
+    background-color: #E73A5C;;
+    border-radius: 10px;
+    box-shadow: 15px 15px 4px #da7085 ;
 }
 
 #banner-info img {
@@ -81,13 +91,23 @@ h2 {
 }
 
 #banner-info p {
-    background-color: #E73A5C;
     font-weight: bold;
-    width: 200px;
+    width: 400px;
     margin-right: auto;
     margin-left: auto;
     padding: 15px;
 }
+
+#banner-info h1 {
+    font-weight: bold;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    
+}
+
+
 
 
 /* about */
