@@ -63,7 +63,7 @@ h2 {
 }
 
 #main-banner {
-    height: 70vh;
+    padding: 15vh;
     background-image: url('../img/bg-projeto.jpg');
     background-size: cover;
     padding-top: 15vh;

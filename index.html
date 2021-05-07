@@ -13,14 +13,16 @@
 
 <body>
     <!-- navbar-->
-    <header id="navbar">
+    <header id="navbar-section">
         <img src="img/shuriken.png" alt="Shuriken">
-        <h2>Miguel Ezequias</h2>
+        <ul id="navbar-logo">
+        <li><a href="#">Miguel Ezequias</a></li>
+    </ul>
         <nav>
             <ul id="navbar-list">
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#about-section">Sobre</a></li>
+                <li><a href="#jobs-section">Projetos</a></li>
+                <li><a href="#footer-section    ">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -93,6 +95,7 @@
         <!-- jobs fim -->
         <!-- footer inicio -->
         <footer>
+            <section id="footer-section">
            <h2>Me mande uma mensagem</h2>
            <p>Caso queira falar sobre algum projeto, me contratar para algum serviço ou falar sobre ninjas...</p>
             <img src="img/ninja.png" alt="Perfil Ninja">
@@ -100,9 +103,11 @@
                 <input type="text" name="name" placeholder="Seu nome">
                 <input type="email" name="email" placeholder="Seu e-mail">
                 <textarea name="msg" placeholder="Digite uma mensagem"></textarea>
-                <input type="submit" value="Enviar">
+                <button type="button" class="efeito efeito-1">Submit
+                </button>
             </form>
             <p>Desenvolvido por <span class="detail">Miguel Ezequias</span></p>
+        </section>
         </footer>
 
         <!-- footer fim -->
